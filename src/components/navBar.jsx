@@ -1,10 +1,9 @@
 
 
-
 export default function NavBar() {
     return(
         <>
-        <h2 className="titulo">NB EVENTOS</h2>
+        <h1 className="titulo">NB EVENTOS</h1>
         <ul>
             <li>
         <a href="#" className="padding">Inicio</a>

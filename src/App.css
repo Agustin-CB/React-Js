@@ -12,3 +12,11 @@ li{
   align-items: center;
   background-color: bisque;
 }
+
+.button-ItemCount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
