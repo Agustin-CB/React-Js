@@ -26,12 +26,13 @@ const ItemCount = (props) => {
 
     return(
         <div className="button-ItemCount">
-            <button onClick={handleStock.sumaStock}>+</button>
+            <button onClick={handleStock.sumaStock} disabled={stock===0}>+</button>
             <p>{unidades}</p>
             <button onClick={handleStock.restaStock}>-</button>
             <p>Stock Disponible: {stock}</p>
         </div>
     )
 }
+
 
 export default ItemCount

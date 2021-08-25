@@ -1,9 +1,11 @@
 import './App.css';
-import ItemCount from './components/itemcount/itemCount';
+import ItemListContainer from './components/ItemListContainer/itemListContainer';
 
 function App () {
   return (
-    <ItemCount stock="5"/>
+    <>
+    <ItemListContainer/>
+    </>
   )
   
 }
