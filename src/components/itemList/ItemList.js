@@ -19,7 +19,7 @@ const ItemList = ()=>{
             setProductos(items);
             setCargando(false);
         });
-    },[]);
+    },[])
 
 
     return(
