@@ -1,0 +1,13 @@
+.item-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px ;
+    margin-top: 20px;
+}
+
+
+.boton{
+    display: flex;
+    margin-left: 350px;
+}

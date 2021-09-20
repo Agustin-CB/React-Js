@@ -1,17 +1,41 @@
 .titulo{
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-.padding{
-  padding: 0.8rem;
+
+nav{
+  width: 100%;
+  background-color: lightblue;
+  overflow: auto;
 }
+
+ul{
+  padding: 0;
+  margin: 0 0 0 700px;
+  list-style: none;
+}
+
 
 li{
-  display: inline-block;
-  align-items: center;
-  background-color: bisque;
+  float: left;
 }
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 3%;
+}
+
+nav p{
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  text-align: center;
+}
+
 
 .button-ItemCount{
   display: flex;
@@ -19,4 +43,12 @@ li{
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+}
+
+.imgCentrada img{
+  text-align: center;
+}
+
+.imagen-inicio{
+  text-align: center;
 }

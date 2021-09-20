@@ -1,13 +1,18 @@
 import ItemCount from "../itemcount/itemCount";
 import ItemList from "../itemList/ItemList";
-import NavBar from "../navBar";
-
+import ItemDetailContainer from "../itemDetailContainer/itemDetailContainer";
 const ItemListContainer=(props)=>{
+       
+
     return(
         <>
-        <NavBar/>
+        <h1 className="titulo">{props.titulo}</h1>
+        <div className="imagen-inicio">
+            <img src='/fondo2.jpg' alt='consola' width='20%'/>
+        </div>
         <ItemCount stock="5" />
         <ItemList />
+        {/* <ItemDetailContainer />  */}
         </>
     )
 }
